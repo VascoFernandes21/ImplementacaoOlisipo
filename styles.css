@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Calibri';
+    max-width: 100vw;
 }
 
 
@@ -29,24 +30,26 @@ body {
 }
 .texto {
  width: 80vh;
+ margin-top: 3vh;
 }
+
 .telemovel {
     float: right;
-    padding-left: 24vh;
-    margin-right: -10vh;
+    margin-left: 17vh;
     width: 100vh;
     height: auto;
-    margin-top: -6vh;
+    margin-top: -4.5vh;
 }
 
 .botao-download {
     background-color: rgb(20, 224, 20);
     color: black;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
     border-radius: 10px;
+    margin-top: 8vh;
 }
 
 .cubocima {
@@ -70,12 +73,17 @@ body {
 }
 
 .menu {
-    margin-top: 1vh;
-    margin-left: 1vh;
+    margin-top: 7vh;
     width: 75vh;
     height: auto;
-    margin-left: 7vh;
+    margin-left: 11vh;
     object-fit: cover;
+}
+
+.calendario {
+    margin-top: -40vh;
+    width: 80vh;
+    margin-right: 0;
 }
 
 .printcima {
@@ -88,8 +96,8 @@ body {
 
 .printbaixo {
     flex: 1;
-    margin-left: 17vh;
-    padding-left: 20vh;
+    margin-left: 15vh;
+    margin-top: 22vh;
 }
 
 
@@ -103,6 +111,24 @@ body {
         -2px 0 #44BC43, 0 2px #44BC43, 2px 0 #44BC43, 0 -2px #44BC43;
 }
 
+.titulo-negrito {
+    font-size: 6vh;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: -26vh;
+    color: black;
+    text-shadow: 
+        -0.5px 0 #44BC43, 0 0.5px #44BC43, 0.5px 0 #44BC43, 0 -0.5px #44BC43,
+        -1px 0 #44BC43, 0 1px #44BC43, 1px 0 #44BC43, 0 -1px #44BC43;
+}
+
+.descricao {
+    font-size: 3.3vh;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    color: black;
+}
+
 .frase1 {
     font-size: 6vh;
     width: 80vh;
@@ -112,38 +138,134 @@ body {
 }
 
 .frase2 {
-    margin-top: 0;
-    font-size: 2vh;
+    margin-top: 3vh;
+    font-size: 2.8vh;
 }
 
 .linha-verde {
     border: none;
-    height: 1vh; /* Ajuste a espessura conforme necessário */
-    background-color: #28D225; /* A cor da linha */
+    height: 0.8vh; /* Ajuste a espessura conforme necessário */
+    background-color: #40C13D;
+    margin: 0;
 }
 
 .fundo {
+    height: 119.5vh;
+    background-color: #E2E2E2;
+    position: relative; /* Adicionado para posicionar as imagens em relação a este elemento */
+}
+
+.conteudo {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+    flex-direction: row;
+    justify-content: center; /* Alterado de space-evenly para center */
+    width: 80%; /* Adicionado para limitar a largura do conteúdo */
+    margin: 0 auto; /* Adicionado para centralizar o conteúdo */
+    padding-top: 30vh;
+    height: 40vh;
 }
 
 .imagem1, .imagem2 {
-    position: relative;
-    width: 90vh; /* Ajuste conforme necessário */
-    margin: 15vh 30vh
+    position: absolute; /* Alterado de relative para absolute */
+    width: 150vh; /* Ajuste conforme necessário */
 }
 
-
-.noticias, .parceiros {
+.noticias {
     position: absolute;
-    width: 50vh;
-    height: auto;
+    left: 0; /* Encosta a imagem à esquerda */
+    margin-top: 7vh;
+}
+
+.parceiros {
+    position: absolute;
+    right: 0; /* Encosta a imagem à direita */
+    margin-top: 7vh;
 }
 
 .texto-imagem {
     position: absolute;
-    top: 10px; /* Ajuste conforme necessário */
-    left: 10px; /* Ajuste conforme necessário */
+    top: -20vh; /* Ajuste conforme necessário */ 
+    left: 11vh;
+    width: 70vh; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.texto-imagem2 {
+    position: absolute;
+    top: -20vh; /* Ajuste conforme necessário */ 
+    right: -20vh;
+    width: 70vh; /* Ajuste conforme necessário */
+    text-align: center;
+}
+
+.descricao-imagem {
+    font-size: 3.5vh;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    color: black;
+    margin-left: -35vh;
+}
+
+.certo {
+    position: absolute;
+    margin-left: -6.5vh;
+    margin-top: 1.6vh;
+}
+
+.titulo-secundario {
+    font-size: 6vh;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+    margin-left: -25vh;
+    margin-top: 0;
+}
+
+footer {
+    width: 100%; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o rodapé */
+    background-color: #292929;
+    height: 22vh;
+}
+
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vh;
+}
+
+.titulo-download {
+    font-size: 4.2vh;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+    margin-left: 1vh;
+    margin-top: 0;
+    text-shadow: 
+        -0.5px 0 #44BC43, 0 0.5px #44BC43, 0.5px 0 #44BC43, 0 -0.5px #44BC43,
+        -1px 0 #44BC43, 0 1px #44BC43, 1px 0 #44BC43, 0 -1px #44BC43;
+}
+
+.conteudo-download, .conteudo-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4vh;
+}
+
+.grupo-botao {
+    display: flex;
+    flex-direction: row; /* Faz com que os botões estejam lado a lado */
+    gap: 10px; /* Cria um espaço entre os botões */
+    margin-top: -5vh;
+}
+
+.conteudo-redes-sociais {
+    
+}
+.icones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2vh;
 }
