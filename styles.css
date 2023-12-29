@@ -144,7 +144,7 @@ body {
 
 .linha-verde {
     border: none;
-    height: 0.8vh; /* Ajuste a espessura conforme necessário */
+    height: 0.8vh; 
     background-color: #40C13D;
     margin: 0;
 }
@@ -152,7 +152,7 @@ body {
 .fundo {
     height: 119.5vh;
     background-color: #E2E2E2;
-    position: relative; /* Adicionado para posicionar as imagens em relação a este elemento */
+    position: relative; 
 }
 
 .conteudo {
@@ -167,7 +167,7 @@ body {
 
 .imagem1, .imagem2 {
     position: absolute; /* Alterado de relative para absolute */
-    width: 150vh; /* Ajuste conforme necessário */
+    width: 150vh; 
 }
 
 .noticias {
@@ -184,17 +184,17 @@ body {
 
 .texto-imagem {
     position: absolute;
-    top: -20vh; /* Ajuste conforme necessário */ 
+    top: -20vh;
     left: 11vh;
-    width: 70vh; /* Ajuste conforme necessário */
+    width: 70vh; 
     text-align: center;
 }
 
 .texto-imagem2 {
     position: absolute;
-    top: -20vh; /* Ajuste conforme necessário */ 
+    top: -20vh; 
     right: -20vh;
-    width: 70vh; /* Ajuste conforme necessário */
+    width: 70vh; 
     text-align: center;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 footer {
-    width: 100%; /* Ajuste conforme necessário */
+    width: 100%;
     margin: 0 auto; /* Centraliza o rodapé */
     background-color: #292929;
     height: 22vh;
@@ -260,9 +260,6 @@ footer {
     margin-top: -5vh;
 }
 
-.conteudo-redes-sociais {
-    
-}
 .icones {
     display: flex;
     flex-direction: row;
