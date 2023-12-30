@@ -80,6 +80,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 2vh;
+    padding-bottom: 15vh;
 }
 
 .menu {
@@ -91,9 +92,10 @@ body {
 }
 
 .calendario {
-    margin-top: -25vh;
+    margin-top: -20vh;
     width: 30vw;
     margin-right: 10vw;
+    
 }
 
 .printcima {
@@ -102,7 +104,7 @@ body {
     width: 60vw;
     float: right;
     margin-right: 11vh;
-    margin-top: 8vh;
+    margin-top: 25vh;
 }
 
 .printbaixo {
