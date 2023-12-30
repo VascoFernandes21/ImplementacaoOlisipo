@@ -24,7 +24,7 @@ body {
     position: relative;
 }
 .inicio {
-    background-color: #d5dbd5;
+    background-color: rgba(0, 216, 0, 0.1);
     margin-top: -2vh;
 }
 .corpo {
@@ -91,7 +91,7 @@ body {
 }
 
 .calendario {
-    margin-top: -40vh;
+    margin-top: -25vh;
     width: 30vw;
     margin-right: 10vw;
 }
@@ -103,13 +103,13 @@ body {
     float: right;
     margin-right: 11vh;
     margin-top: 8vh;
-
 }
 
 .printbaixo {
     flex: 1;
     margin-left: 11vh;
     margin-top: 22vh;
+    padding-top: 5vh;
 }
 
 
